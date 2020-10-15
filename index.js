@@ -47,6 +47,10 @@ module.exports = {
         ],
       },
     ],
+    'padding-line-between-statements': [
+      "error",
+      { blankLine: "always", prev: "*", next: "return" }
+    ],
     'no-console': ['error', { allow: ['error', 'info'] }],
     quotes: ['error', 'single'],
     'function-paren-newline': 2,
